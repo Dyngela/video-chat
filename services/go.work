@@ -1,0 +1,8 @@
+go 1.22.5
+
+use (
+	"core/chat"
+	"core/video"
+	"core/gateway"
+	"shared"
+)

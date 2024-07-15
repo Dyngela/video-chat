@@ -1,0 +1,5 @@
+<div class="bg-amber-700">
+  <button (click)="onButtonClick()" [disabled]="loading | async">
+    {{ (loading | async) ? 'Loading...' : 'Click Me' }}
+  </button>
+</div>
